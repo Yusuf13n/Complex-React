@@ -1,0 +1,97 @@
+* {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+
+.card {
+    max-width: min-content;
+    margin: 70px auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    .cardLeft {
+      padding: 20px;
+    }
+    h5 {
+      font-size: 15px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #773844;
+      text-align: center;
+      padding: 8px 5px;
+    }
+    h2 {
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 45px;
+      padding: 7px 15px;
+    }
+    p {
+      font-weight: 400;
+      padding: 7px 15px;
+    }
+    .cardForm {
+      padding: 0px 15px;
+      position: relative;
+    }
+    .cardForm::before {
+      content: "";
+      width: 500px;
+      height: 1px;
+      background-color: #6d6d6d;
+      position: absolute;
+      top: -25px;
+    }
+    .cardInput {
+      margin-top: 50px;
+      display: flex;
+      gap: 5px;
+      input {
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: none;
+        background-color: #e3e2e1;
+      }
+      button {
+        padding: 7px 20px;
+        background-color: #773844;
+        color: white;
+        border-radius: 9px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .info {
+      margin-top: 5px;
+      font-size: 11px;
+    }
+  }
+  
+  .cardRight {
+    position: relative;
+    padding: 20px 30px 0 10px;
+  
+    .womanInfo {
+      position: absolute;
+      left: 50px;
+      bottom: 20px;
+      color: white;
+      h4 {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+      p {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 5px 0;
+      }
+    }
+    img {
+      height: 410px;
+    }
+  }

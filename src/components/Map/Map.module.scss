@@ -1,0 +1,44 @@
+.mapContainer {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        width: 320px;
+        position: relative;
+    }
+    p::before {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 250px;
+        position: absolute;
+        left: 290px;
+        bottom: 50%;
+        background-color: #A0A747;
+    }
+    p::after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 250px;
+        position: absolute;
+        right: 340px;
+        bottom: 50%;
+        background-color: #A0A747;
+    }
+    h2 {
+        max-width: 800px;
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: -2px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}

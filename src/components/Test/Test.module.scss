@@ -1,0 +1,41 @@
+.testCard {
+    margin: 70px auto;
+    padding: 20px 0 0 0;
+    text-align: center;
+    max-width: min-content;
+    background-color: #A0A747;
+    border-radius: 15px;
+    h1 {
+        color: white;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 42px;
+        margin: 15px 0;
+    }
+    p {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 1px;
+        color: #E7E9D3;
+    }
+    button {
+        padding: 11px 20px;
+        margin: 30px 0;
+        background-color: black;
+        color: white;
+        font-weight: 500;
+        border-radius: 8px;
+        border: inherit;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    button:hover {
+        background-color: white;
+        color: black;
+    }
+    .testImage {
+        padding: 25px 0 0;
+        display: flex;
+    }
+}

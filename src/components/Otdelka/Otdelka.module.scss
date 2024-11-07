@@ -1,0 +1,50 @@
+.otdelka {
+  text-align: center;
+  margin: 100px 0;
+  .titleOtdelka {
+    h1 {
+      font-size: 50px;
+      font-weight: 600;
+      letter-spacing: -2px;
+      margin: 10px 0;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: underline #a0a747;
+      text-underline-offset: 5px;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  div {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    max-width: min-content;
+    border-radius: 10px;
+    background-color: white;
+    text-align: start;
+  }
+  div img {
+    max-width: 360px;
+    max-height: 220px;
+    border-radius: 10px;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 10px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 10px;
+  }
+}

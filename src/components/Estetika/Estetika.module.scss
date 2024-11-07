@@ -1,0 +1,38 @@
+.estetContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+  .estetCard {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    h2 {
+      display: flex;
+      align-items: center;
+      margin: 15px 15px;
+      font-size: 38px;
+      font-weight: 500;
+    }
+  }
+  .paragraph {
+    display: flex;
+    gap: 10px;
+    margin: 15px 15px;
+    p {
+      padding: 5px 15px;
+      margin-bottom: 10px;
+      background-color: rgb(229, 222, 214);
+      border-radius: 4px;
+    }
+  }
+}
+.estetImage {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 5px 0;
+  img {
+    border-radius: 10px;
+  }
+}

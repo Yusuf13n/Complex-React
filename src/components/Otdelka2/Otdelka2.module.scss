@@ -1,0 +1,31 @@
+.otdelkaContainer {
+    max-width: 1180px;
+    margin: 80px auto;
+    div {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 10px;
+    }
+    img {
+        padding: 0 7px;
+    }
+}
+
+
+.otdelkaTitleButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px ;
+    h2 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    button {
+        height: 40px;
+        padding: 0 20px;
+        background-color: #773844;
+        color: white;
+        border-radius: 10px;
+        border: none;
+    }
+}

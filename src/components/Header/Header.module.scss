@@ -1,0 +1,10 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    .right {
+        text-align: end;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
