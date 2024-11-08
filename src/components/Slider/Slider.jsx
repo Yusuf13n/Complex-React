@@ -7,18 +7,9 @@ import style from './Slider.module.scss'
 
 import img from '../../Images/Slider 1/img.png';
 import img2 from '../../Images/Slider 1/2.png';
+import { settings } from '../../config/config';
 
 const CarouselImg = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplay: true, 
-    autoplaySpeed: 1500, 
-  };
 
   return (
     <div className={style.containerSlider}>
