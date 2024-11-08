@@ -3,6 +3,8 @@ import style from "./Header.module.scss";
 
 import left from "../../Images/Header/Left.png";
 import right from "../../Images/Header/Right.png";
+import { Yusuf } from "../Pages/Yusuf";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -13,6 +15,7 @@ export const Header = () => {
 
       <div className={style.right}>
         <p>+7 495 845 19 34</p>
+        {/* <Link to='./Yusuf' >AAAAAA</Link> */}
         <p style={{ color: "#A0A747" }}>работаем</p>
       </div>
     </div>

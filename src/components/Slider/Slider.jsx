@@ -9,7 +9,7 @@ import img from '../../Images/Slider 1/img.png';
 import img2 from '../../Images/Slider 1/2.png';
 import { settings } from '../../config/config';
 
-const CarouselImg = () => {
+export const CarouselImg = () => {
 
   return (
     <div className={style.containerSlider}>
@@ -34,5 +34,3 @@ const CarouselImg = () => {
     </div>
   );
 };
-
-export default CarouselImg;
